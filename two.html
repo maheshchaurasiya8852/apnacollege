@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            
+        }
+        .card{
+            border: solid black 2px;
+            height: 500px;
+            width: 800px;
+            display: flex;
+
+        } 
+        .imagebox{
+            height: 100%;
+            width: 100%;
+            
+
+        } 
+        .rightbox{
+            flex: 1;
+
+        }
+        .leftbox{
+            flex: 1;
+     /* padding: 20px;*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+      padding: 40px;
+      background-color: rgb(31, 2, 46);
+     box-shadow: 5px 10px 2px rgb(23, 0, 37) inset;
+
+        }
+        .imagebox img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .leftbox h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .leftbox p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      max-width: 80%;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .stat p {
+      font-size: 14px;
+    }
+
+           
+    </style>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="card">
+                <div class="leftbox">
+                    <div class="headingbox">
+                       <h1>Get insight that help your business grow</h1>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quasi deserunt est placeat ullam corporis!</p>
+                    </div>
+                    <div class="stats">
+                        <div class="stat">
+                            <h2>10K</h2>
+                            <p>Comments</p>
+                        </div>
+                        <div class="stat">
+                            <h2>214</h2>
+                            <p>Paid User</p>
+                        </div>
+                        <div class="stat">
+                            <h2>12M+</h2>
+                            <p>View</p>
+                        </div>
+                    </div>
+                       
+                </div>
+                <div class="rightbox">
+                    <div class="imagebox">
+                        <img src="project3photo.jpeg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Business Growth Card</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 100vw;
+      height: 100vh;
+      background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      width: 900px;
+      height: 500px;
+      display: flex;
+      background-color: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .leftbox {
+      flex: 1;
+      background-color: #1f1235;
+      color: white;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .leftbox h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .leftbox p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      max-width: 80%;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .stat p {
+      font-size: 14px;
+    }
+
+    .rightbox {
+      flex: 1;
+    }
+
+    .imagebox {
+      width: 100%;
+      height: 100%;
+    }
+
+    .imagebox img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="leftbox">
+        <h1>Get insights that help your business grow</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dolorum accusantium totam repellendus minus sit. Consequuntur, deleniti dignissimos?</p>
+        <div class="stats">
+          <div class="stat">
+            <h2>10K+</h2>
+            <p>Comments</p>
+          </div>
+          <div class="stat">
+            <h2>214</h2>
+            <p>Paid Users</p>
+          </div>
+          <div class="stat">
+            <h2>12M+</h2>
+            <p>Views</p>
+          </div>
+        </div>
+      </div>
+      <div class="rightbox">
+        <div class="imagebox">
+          <img src="project3photo.jpeg" alt="Business Image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>!-->
